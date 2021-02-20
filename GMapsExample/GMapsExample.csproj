@@ -120,5 +120,8 @@
   <ItemGroup>
     <None Include="Resources\search-google.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-google-peq.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
