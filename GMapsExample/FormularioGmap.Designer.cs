@@ -41,7 +41,7 @@
             this.gMapControl1.GrayScaleMode = false;
             this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(21, 47);
+            this.gMapControl1.Location = new System.Drawing.Point(30, 92);
             this.gMapControl1.MarkersEnabled = true;
             this.gMapControl1.MaxZoom = 2;
             this.gMapControl1.MinZoom = 2;
@@ -67,7 +67,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::GMapsExample.Properties.Resources.search_google_peq;
-            this.button1.Location = new System.Drawing.Point(525, 47);
+            this.button1.Location = new System.Drawing.Point(30, 6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 80);
             this.button1.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GMapsExample.Properties.Resources.search_google;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(552, 485);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gMapControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
